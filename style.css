@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/*  -------- */
+body.dark-mode {
+    background: #121212;
+    color: #ddd;
+}
+
+/* --------*/
+.container {
+    background: #ffffff10;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: inherit;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ---------*/
+#darkModeToggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+#darkModeToggle:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ff784e, #ff3c6e);
+}
+
+/* ------- */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffda79;
+    transition: color 0.3s ease;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #f9f871;
+    transition: color 0.3s ease;
+}
+
+/* ------- */
+form label {
+    display: block;
+    font-size: 1rem;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff20;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+form input:focus {
+    background: #ffffff40;
+}
+
+/* ------- */
+form button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background: #ff856c;
+}
+
+/* -------- */
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ffffff15;
+    border-radius: 10px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.results p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #c6ffdd;
+}
